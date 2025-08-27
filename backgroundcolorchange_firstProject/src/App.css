@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "tailwindcss";
+
+.button {
+  padding: 9px 30px !important;
+  border-radius: 5px;
+  box-shadow: inset;
+  cursor: pointer;
+}
