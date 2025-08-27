@@ -21,7 +21,7 @@ function App() {
     if (specialCharacter) str += "@#$%&";
 
     for (let i = 1; i <= length; i++) {
-      const char = Math.floor(Math.random() * str.length + 1);
+      const char = Math.floor(Math.random() * str.length);
       pass += str.charAt(char);
     }
 
